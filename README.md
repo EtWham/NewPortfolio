@@ -4,11 +4,13 @@ When completed, this will be the professional portfolio I will showcase & send p
 
 To be Done:
 
--make the pills to be a different color when hovering over them
+-make the pills a different color when hovering over them
 
 -make the contact modal
 
 -either get rid of bulma css or find a way to make it work
+
+-write bio section
 
 -get background colors of separate sections down
 
