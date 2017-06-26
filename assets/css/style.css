@@ -1,0 +1,117 @@
+/*DON'T FORGET TO MAKE THIS MOBILE RESPONSIVE*/
+
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+}
+.no-video .video-container video,
+.touch .video-container video {
+    display: none;
+}
+.no-video .video-container .poster,
+.touch .video-container .poster {
+    display: block !important;
+}
+.video-container {
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+}
+.video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+.video-container .filter {
+    z-index: 100;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+}
+.video-container video {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+}
+.video-container video.fillWidth {
+    width: 100%;
+}
+
+#navbarList {
+    font-size: 16px;
+    font-color: black;
+}
+
+.page-header {
+    font-size: 60px;
+    color: lightblue;
+}
+
+#header {
+    text-align: center;
+    font-size: 60px; 
+    -webkit-animation-duration:1s;
+}
+
+#aboutPic {
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+    padding:4px;
+    width:65%;
+}
+
+#aboutMe {
+    font-size: 16px;
+}
+
+#aboutTitle, #skillsTitle {
+    color: black;
+    text-align: center;
+    font-size: 45px; 
+}
+
+#skillsBox{
+    display: block;
+    margin: 0 auto;
+    color: #222;
+}
+
+.skillType{
+    display: block;
+    width: 100%;
+    padding: 70px 0px;
+    font-size: 45px;
+    font-family: 'Pacifico', cursive;
+    
+}
+/*choose better colors for this!!!*/
+#frontend {
+ color: lightblue;
+}
+/*choose better colors for this!!!*/
+#backend {
+ color: lightgreen;
+}
+
+.skillsList{
+    display: block;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.skillItem{
+    font-size: 120px;
+    margin: 10px;
+
+}
+
+#footer {
+    font-size: 16px;
+    color: white;
+}
