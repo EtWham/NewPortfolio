@@ -29,6 +29,9 @@ class Break extends React.Component{
 									<li class="skillItem">
 										<i class="devicon-jquery-plain-wordmark colored"></i>
 									</li>
+									<li class="skillItem">
+										<i class="devicon-react-original-wordmark colored"></i>
+									</li>
 								</ul>
 							</div>
 						</div> end of frontend column
@@ -50,8 +53,8 @@ class Break extends React.Component{
 									<li class="skillItem">
 										<i class="devicon-mongodb-plain-wordmark colored"></i>
 									</li>
-									<li class="skillItem">
-										<i class="devicon-react-original-wordmark colored"></i>
+									<li className='skill-item'>
+										<i className="devicon-webpack-plain-wordmark colored"></i>
 									</li>
 								</ul>
 							</div>
