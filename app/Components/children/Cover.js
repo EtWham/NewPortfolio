@@ -7,9 +7,9 @@ class Cover extends React.Component{
           <div className="homepage-hero-module">
             <div className="video-container">
             <div className="filter"></div>
-              <video autoplay loop className="fillWidth">
-                <source src="../../public/mp4/For_Wes.mp4" type="video/mp4" />
-                <source src="../../public/webm/For_Wes.webm" type="video/webm" />
+              <video autoPlay loop className="fillWidth">
+                <source src="/mp4/For_Wes.mp4" type="video/mp4" />
+                <source src="/public/webm/For_Wes.webm" type="video/webm" />
               </video>
             <div className="row">
               want the pills to be a different color
