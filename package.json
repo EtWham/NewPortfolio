@@ -5,7 +5,9 @@
   "main": "index.js",
   "dependencies": {
     "animate.css": "^3.5.2",
+    "body-parser": "^1.17.2",
     "bulma": "^0.4.4",
+    "express": "^4.15.3",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-modal": "^2.2.2",

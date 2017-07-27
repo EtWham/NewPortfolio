@@ -8,8 +8,8 @@ class Cover extends React.Component{
             <div className="video-container">
             <div className="filter"></div>
               <video autoplay loop className="fillWidth">
-                <source src="../../assets/mp4/For_Wes.mp4" type="video/mp4" />
-                <source src="../../assets/webm/For_Wes.webm" type="video/webm" />
+                <source src="../../public/mp4/For_Wes.mp4" type="video/mp4" />
+                <source src="../../public/webm/For_Wes.webm" type="video/webm" />
               </video>
             <div className="row">
               want the pills to be a different color
