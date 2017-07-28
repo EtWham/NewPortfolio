@@ -1,10 +1,11 @@
 import React from 'react';
+import Footer from './Footer.js';
 
 class About extends React.Component{
 	render(){
 		return(
 			<div className="container" id="aboutMe">
-			<h1 id="aboutTitle" className="center-text"><strong>About Me</strong></h1>
+			<h1 id="aboutTitle" className="center-text animated slideInDown"><strong>About Me</strong></h1>
 			<div className="row">
 				<div className="col-md-4"></div>
 				<div className="col-md-4">		

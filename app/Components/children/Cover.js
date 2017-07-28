@@ -16,8 +16,9 @@ class Cover extends React.Component{
             <div className="row">
               <div className="col-md-4"></div>
               <div className="col-md-4">
-                <div className="page-header">
+                <div className="nameTitle">
                 <Break />
+                  <p hidden>animate this cover as if it were typed out rahther than animate io</p>
                   <p id="typeName" className="animated slideInUp"><strong>Ethan Wham</strong></p>
                 </div>
               </div>

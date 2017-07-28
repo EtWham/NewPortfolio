@@ -41,6 +41,10 @@
     width: 100%;
 }
 
+.navbar {
+    opacity: .8;
+}
+
 .listItem {
     font-size: 20px;
     font-color: white;
@@ -59,15 +63,32 @@
     font-size: 30px;
 }
 
-.page-header {
+.nameTitle {
     font-size: 60px;
     color: white;
+    border-bottom: 5px ridge white;
 }
 
 #typeName {
     text-align: center;
-    font-size: 60px; 
+    font-size: 60px;
+    font-family: 'Artifika', cursive; 
     -webkit-animation-duration:1s;
+}
+
+#aboutTitle, #portfolioTitle { 
+    font-family: 'Artifika', cursive;
+    font-size: 55px;
+    padding: 120px 0px 20px 0px;
+    margin: 0 auto 50px auto;
+    max-width: 700px;
+    border-bottom: 5px ridge black;
+    display: block;
+    text-align: center;
+}
+
+#portfolioTitle {
+    color: black;
 }
 
 #aboutPic {
@@ -80,18 +101,18 @@
 
 #aboutMe {
     font-size: 16px;
+    color: black;
     width: 100%;
-    background: #bec8d8;
+    background: #379dd6;
 }
 
-#aboutTitle, #skillsTitle {
-    color: black;
-    text-align: center;
-    font-size: 45px; 
-}
-#skills{
+#skills {
     display: block;
     margin: 0 auto;
+}
+
+#skillsAndProjects {
+    background-image: url(../images/background4.png);
 }
 
 .skillType{
@@ -100,28 +121,58 @@
     padding: 40px 0px;
     font-size: 45px;
     text-align: center;
-    color: darkgrey;
-    
+    color: black; 
 }
 
-.apps{
+#frontend {
+    border-bottom: 3px ridge yellow;  
+}
+
+#backend {
+    border-bottom: 3px ridge red; 
+}
+
+.apps {
     display: block;
     width: 100%;
     padding: 40px 0px;
     font-size: 45px;
     text-align: center;
-    color: darkgrey;
-    
+    color: black;
+    border-bottom: 3px ridge blue;
 }
 
-.skillsList{
+#app1 {
+    width: 150px;
+    height: 150px;
+    background-image: url(../images/maritant.png);
+    background-size: 300px 200px;
+    border: 5px solid #303e4e;
+    border-radius: 10px;
+        
+}
+
+#app2 {
+    width: 150px;
+    height: 150px;
+    background-image: url(../images/recipe.jpg);
+    background-size: 300px 200px;
+    border: 5px solid #303e4e;
+    border-radius: 10px;    
+}
+
+.appTitle, .appDescription{
+    color: black;
+}
+
+.skillsList {
     display: block;
     margin: 0 auto;
     text-align: center;
     max-width: 1200px;
 }
 
-.skill{
+.skill {
     font-size: 100px;
     margin: 10px;
     display: inline-block;
@@ -130,4 +181,5 @@
 #footer {
     font-size: 16px;
     color: white;
+    width: 100%;
 }

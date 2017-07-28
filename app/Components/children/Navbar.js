@@ -1,19 +1,20 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 class Navbar extends React.Component{
   render(){
     return(
         <div className="row">
         <div className="navbar navbar-fixed-top">
-                <nav className="navbar navbar-inverse navbar-fixed-top animated slideInDown">
+                <nav className="navbar navbar-inverse navbar-fixed-top animated slideInDown" id="navbar">
                     <div className="container-fluid">
                     <div className="col-sm-4"></div>
                     <div className="col-sm-6">
                         <ul className="nav navbar-nav">
-                            <li className="listItem"><a href="#">About</a></li>
-                            <li className="listItem"><a href="#">Skills</a></li>
-                            <li className="listItem"><a href="#">Portfolio</a></li>
-                            <li className="listItem"><a href="#">Contact</a></li>
+                            <li className="listItem"><Link to="/">Home</Link></li>
+                            <li className="listItem"><Link to="/about">About</Link></li>
+                            <li className="listItem"><Link to="/portfolio">Apps & Skills</Link></li>
+                            <li className="listItem"><Link to="/contact">Contact</Link></li>
                         </ul>
                     </div>
                     <div className="col-sm-2">
