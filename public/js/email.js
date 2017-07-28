@@ -1,21 +1,21 @@
-var myform = $("form#contactForm");
-myform.submit(function(event){
+var contactForm = $("form#contactForm");
+contactForm.submit(function(event){
   event.preventDefault();
 
-  var service_id = "PortfolioGmail";
+  var service_id = "default_service";
   var template_id = "PortfolioEmail";
 
-  myform.find("button").text("Sending...");
-  emailjs.sendForm(service_id,template_id,"myform")
+  contactForm.find("button").text("Sending...");
+  emailjs.sendForm(service_id,template_id,"contactForm")
     .then(function(){ 
       alert("Sent!");
       $('#nameInput').val('');
       $('#emailInput').val('');
       $('#msgInput').val('');
-       myform.find("button").text("Send");
+       contactForm.find("button").text("Send");
     }, function(err) {
        alert("Send email failed!\r\n Response:\n " + JSON.stringify(err));
-       myform.find("button").text("Send");
+       contactForm.find("button").text("Send");
     });
   return false;
 });
