@@ -4,9 +4,7 @@ When completed, this will be the professional portfolio I will showcase & send p
 
 To be Done:
 
--make the pills a different color when hovering over them
-
--make the contact modal
+-finish the contact functionality
 
 -either get rid of bulma css or find a way to make it work
 
@@ -14,4 +12,4 @@ To be Done:
 
 -get background colors of separate sections down
 
--organize the frontend & backend skills into multiple rows of the images instead of two columns; less vertical movement & better use of space
+-fix the cover component acting weird when reloading the home page
