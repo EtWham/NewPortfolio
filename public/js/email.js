@@ -1,4 +1,4 @@
-var myform = $("form#myform");
+var myform = $("form#contactForm");
 myform.submit(function(event){
   event.preventDefault();
 
@@ -9,9 +9,9 @@ myform.submit(function(event){
   emailjs.sendForm(service_id,template_id,"myform")
     .then(function(){ 
       alert("Sent!");
-      $('#name-input').val('');
-      $('#email-input').val('');
-      $('#textArea').val('');
+      $('#nameInput').val('');
+      $('#emailInput').val('');
+      $('#msgInput').val('');
        myform.find("button").text("Send");
     }, function(err) {
        alert("Send email failed!\r\n Response:\n " + JSON.stringify(err));
