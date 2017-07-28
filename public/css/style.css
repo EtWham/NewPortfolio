@@ -1,5 +1,4 @@
 /*DON'T FORGET TO MAKE THIS MOBILE RESPONSIVE*/
-
 .homepage-hero-module {
     border-right: none;
     border-left: none;
@@ -42,17 +41,30 @@
     width: 100%;
 }
 
-#navbarList {
-    font-size: 16px;
-    font-color: black;
+.listItem {
+    font-size: 20px;
+    font-color: white;
+    justify-content: center;
+}
+
+#socialLogos {
+
+}
+
+#gitLogo {
+    font-size: 30px;
+}
+
+#linkLogo {
+    font-size: 30px;
 }
 
 .page-header {
     font-size: 60px;
-    color: lightblue;
+    color: white;
 }
 
-#header {
+#typeName {
     text-align: center;
     font-size: 60px; 
     -webkit-animation-duration:1s;
@@ -68,6 +80,8 @@
 
 #aboutMe {
     font-size: 16px;
+    width: 100%;
+    background: #bec8d8;
 }
 
 #aboutTitle, #skillsTitle {
@@ -75,40 +89,32 @@
     text-align: center;
     font-size: 45px; 
 }
-
-#skillsBox{
+#skills{
     display: block;
     margin: 0 auto;
-    color: #222;
 }
 
 .skillType{
     display: block;
     width: 100%;
-    padding: 70px 0px;
+    padding: 40px 0px;
     font-size: 45px;
-    font-family: 'Pacifico', cursive;
+    text-align: center;
+    color: darkgrey;
     
-}
-/*choose better colors for this!!!*/
-#frontend {
- color: lightblue;
-}
-/*choose better colors for this!!!*/
-#backend {
- color: lightgreen;
 }
 
 .skillsList{
     display: block;
     margin: 0 auto;
+    text-align: center;
     max-width: 1200px;
 }
 
-.skillItem{
-    font-size: 120px;
+.skill{
+    font-size: 100px;
     margin: 10px;
-
+    display: inline-block;
 }
 
 #footer {
