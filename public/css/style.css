@@ -104,6 +104,16 @@
     
 }
 
+.apps{
+    display: block;
+    width: 100%;
+    padding: 40px 0px;
+    font-size: 45px;
+    text-align: center;
+    color: darkgrey;
+    
+}
+
 .skillsList{
     display: block;
     margin: 0 auto;

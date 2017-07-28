@@ -3,9 +3,10 @@ import React from 'react';
 class Skills extends React.Component{
 	render(){
 		return(
+			<div className="row" id="skillsAndProjects">
 			<div className="container" id="skills">
 				Want to optimize; give this section a color and make the frontend & backend skills expand outlining apps displaying their use 
-				<div id="frontendSkills">
+				<div id="frontendSkills" className="col-md-4">
 					<p className="skillType" id="frontend">Front End</p>
 					<div className="frontendSkills">
 						<ul className="skillsList">
@@ -30,7 +31,7 @@ class Skills extends React.Component{
 						</ul>
 					</div>
 				</div>
-				<div id="backendSkills">
+				<div id="backendSkills" className="col-md-4">
 					<p className="skillType" id="backend">Back End</p>
 					<div className="backendSkills">
 						<ul className="skillsList">
@@ -52,6 +53,12 @@ class Skills extends React.Component{
 						</ul>
 					</div>
 				</div>
+				<div id="projects" className="col-md-4">
+					<p className="apps" id="appsList">Projects</p>
+
+
+				</div>
+			</div>
 			</div>
 		);
 	}
