@@ -103,7 +103,7 @@
     font-size: 16px;
     color: black;
     width: 100%;
-    background: #379dd6;
+    background-image: url(../images/background7.png);
 }
 
 #skills {
@@ -112,7 +112,11 @@
 }
 
 #skillsAndProjects {
-    background-image: url(../images/background4.png);
+    background-image: url(../images/background7.png);
+}
+
+#contact {
+    background-image: url(../images/background7.png);
 }
 
 .skillType{
@@ -125,11 +129,11 @@
 }
 
 #frontend {
-    border-bottom: 3px ridge yellow;  
+    border-bottom: 3px ridge black;  
 }
 
 #backend {
-    border-bottom: 3px ridge red; 
+    border-bottom: 3px ridge black; 
 }
 
 .apps {
@@ -139,7 +143,7 @@
     font-size: 45px;
     text-align: center;
     color: black;
-    border-bottom: 3px ridge blue;
+    border-bottom: 3px ridge black;
 }
 
 #app1 {
@@ -148,8 +152,7 @@
     background-image: url(../images/maritant.png);
     background-size: 300px 200px;
     border: 5px solid #303e4e;
-    border-radius: 10px;
-        
+    border-radius: 10px;   
 }
 
 #app2 {
@@ -183,11 +186,6 @@
     padding: 5px;
     display: block;
     margin: 10px auto;
-}
-
-#contact {
-    min-height: 100vh;
-    background: white;
 }
 
 .input-label {
