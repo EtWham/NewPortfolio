@@ -20,8 +20,11 @@ class About extends React.Component{
 			<div className="row">
 				<div className="col-md-2"></div>
 				<div className="col-md-8">
-					<p className="about-statement">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut suscipit nulla in nisi aliquet posuere. Etiam consequat aliquet nunc in sodales. Suspendisse finibus congue nisi, a iaculis enim faucibus quis. Ut mattis turpis facilisis dolor facilisis, eu fermentum ante lacinia. Donec porttitor, enim ut tempus iaculis, libero massa rutrum eros, id dapibus tortor sapien at quam. Aliquam ultricies cursus blandit. Phasellus ultrices non tellus eget imperdiet. Nunc eget augue enim. Integer eleifend nisl vitae odio eleifend euismod. Etiam nulla nisi, pulvinar eu suscipit nec, dapibus nec dolor. Phasellus eleifend velit sem, in fringilla velit tristique a. Quisque ornare rutrum ex, vel lacinia justo congue sed.</p>
+					<p className="about-statement">I currently work for the <a className="currentJobLink" target="_blank" href="https://isoc-dc.org/">Washington DC Chapter of the Internet Society</a> as its assistant director engaging in Internet Governance concerns and I recently completed a six-month Full Stack Developer program with George Washington University.</p>
+
+					<p>As a programmer, I enjoy creating applications with the MERN stack and always try to build applications that fulfill a purpose or need I and others have.</p>
+
+					<p>I'm interested in stepping further forward in Internet Governance with both the knowledge I have accumulated at my current job and the valuable programming skills I have recently acquired.</p>
 					<br>
 					</br>
 				</div>

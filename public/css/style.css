@@ -105,7 +105,11 @@
     width: 100%;
     background-image: url(../images/background7.png);
 }
-
+.currentJobLink{
+    color: darkblue;
+    background-color: transparent;
+    text-decoration: none;
+}
 #skills {
     display: block;
     margin: 0 auto;
@@ -201,7 +205,10 @@
 }
 
 #footer {
+    float: none;
+    margin: 0 auto;
     font-size: 16px;
     color: white;
     width: 100%;
+    padding: 5px;
 }
