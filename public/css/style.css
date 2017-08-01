@@ -102,8 +102,6 @@
 #aboutMe {
     font-size: 16px;
     color: black;
-    width: 100%;
-    background-image: url(../images/background7.png);
 }
 .currentJobLink{
     color: darkblue;
@@ -115,21 +113,17 @@
     margin: 0 auto;
 }
 
-#skillsAndProjects {
+#skillsAndProjects, #aboutMe, #contact {
     background-image: url(../images/background7.png);
 }
-
-#contact {
-    background-image: url(../images/background7.png);
-}
-
 .skillType{
     display: block;
     width: 100%;
     padding: 40px 0px;
     font-size: 45px;
     text-align: center;
-    color: black; 
+    color: black;
+    font-family: 'Artifika', cursive; 
 }
 
 #frontend {
@@ -148,6 +142,7 @@
     text-align: center;
     color: black;
     border-bottom: 3px ridge black;
+    font-family: 'Artifika', cursive;
 }
 
 #app1 {

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = (props) => {
 	return(
-	<div id="contact">
+	<div className="row" id="contact">
 		<p id="contactTitle" className="animated fadeInDown center-text">Contact Me</p>
 		<form id="contactForm">
 			<div className="form-contain">

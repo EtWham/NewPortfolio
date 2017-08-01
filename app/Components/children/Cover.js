@@ -6,6 +6,7 @@ import Typed from 'typed.js';
 class Cover extends React.Component{
     render(){
         return(
+          <div className="row">
           <div className="homepage-hero-module">
             <div className="video-container">
             <div className="filter"></div>
@@ -25,6 +26,7 @@ class Cover extends React.Component{
               <div className="col-md-4"></div>
             </div>
             </div>
+          </div>
           </div>
         );
     }
