@@ -18,7 +18,7 @@ const Contact = (props) => {
 			<div className="form-contain">
 				<label className="input-label">Message:</label>	
 				<textarea className="form-control" name="message_html" rows="15" id="msgInput"></textarea>
-				<button type="submit" id="submit-btn" className="btn btn-primary">Send</button>
+				<button type="submit" id="submit-btn" className="btn btn-primary" disabled="disabled">Send</button>
 			</div>
 		</form>
 	</div>
