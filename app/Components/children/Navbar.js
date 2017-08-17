@@ -8,16 +8,16 @@ class Navbar extends React.Component{
         <div className="navbar navbar-fixed-top">
                 <nav className="navbar navbar-inverse navbar-fixed-top animated slideInDown" id="navbar">
                     <div className="container-fluid">
-                    <div className="col-sm-4"></div>
-                    <div className="col-sm-6">
+                    <div className="col-4"></div>
+                    <div className="col-6">
                         <ul className="nav navbar-nav">
                             <li className="listItem"><Link to="/">Home</Link></li>
-                            <li className="listItem"><Link to="/about">About</Link></li>
-                            <li className="listItem"><Link to="/portfolio">Apps & Skills</Link></li>
-                            <li className="listItem"><Link to="/contact">Contact</Link></li>
+                            <li className="listItem"><Link to="/about">About Me</Link></li>
+                            <li className="listItem"><Link to="/portfolio">Skills & Projects</Link></li>
+                            <li className="listItem"><Link to="/contact">Connect</Link></li>
                         </ul>
                     </div>
-                    <div className="col-sm-2">
+                    <div className="col-2">
                         <ul className="nav navbar-nav">
                             <li className="socialLogos">
                                 <a href="https://github.com/EtWham" target="_blank"><i id="gitLogo" className="fa fa-github"></i></a>

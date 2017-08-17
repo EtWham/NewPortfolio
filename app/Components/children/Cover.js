@@ -15,15 +15,15 @@ class Cover extends React.Component{
                 <source src="/public/webm/For_Wes.webm" type="video/webm" />
               </video>
             <div className="row">
-              <div className="col-md-4"></div>
-              <div className="col-md-4">
+              <div className="col-4"></div>
+              <div className="col-4">
                 <div className="nameTitle">
                 <Break />
                   <p hidden>animate this cover as if it were typed out rahther than animate io</p>
                   <p id="typeName" className="animated slideInUp"><strong>Ethan Wham</strong></p>
                 </div>
               </div>
-              <div className="col-md-4"></div>
+              <div className="col-4"></div>
             </div>
             </div>
           </div>

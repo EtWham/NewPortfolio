@@ -1,4 +1,5 @@
 import React from 'react';
+import Carousel from './Carousel.js';
 
 class Portfolio extends React.Component{
 	render(){
@@ -6,7 +7,8 @@ class Portfolio extends React.Component{
 			<div className="row" id="skillsAndProjects">
 			<div className="container" id="skills">
 				<h1 id="portfolioTitle" className="center-text animated slideInDown"><strong>Portfolio</strong></h1> 
-				<div id="frontendSkills" className="col-md-4">
+				<Carousel />
+				<div id="frontendSkills" className="col-4">
 					<p className="skillType" id="frontend">Front End</p>
 					<div className="frontendSkills">
 						<ul className="skillsList">
@@ -31,7 +33,7 @@ class Portfolio extends React.Component{
 						</ul>
 					</div>
 				</div>
-				<div id="backendSkills" className="col-md-4">
+				<div id="backendSkills" className="col-4">
 					<p className="skillType" id="backend">Back End</p>
 					<div className="backendSkills">
 						<ul className="skillsList">
@@ -53,32 +55,26 @@ class Portfolio extends React.Component{
 						</ul>
 					</div>
 				</div>
-				<div id="projects" className="col-md-4">
+				<div id="projects" className="col-4">
 					<p className="apps" id="appsList">Projects</p>
 					<div className='row'>
-						<div className="col-4">
-						<h3 className='appTitle'><u>Maritant Version 2:</u></h3>
-							<div className="app">
-								<a target='_blank' href="https://maritant.herokuapp.com/#/">
-									<div id="app1"></div>
-								</a>
-							</div>
-						<div className='appDescription'>
-							<p>
-								Maritant is an ecommerce app utilizing the MERN Stack (MongoDB, Express, React, Node) and Bootstrap that allows professionals to locate and purchase specific industrial equipment data.
-							</p>
+						<div className="card">
+  							<img className="card-img-top" id="app1" alt=""></img>
+  							<div className="card-body">
+    							<h4 className="card-title"><u>Maritant Version 2:</u></h4>
+    							<p className="card-text">Maritant is an ecommerce app utilizing the MERN Stack (MongoDB, Express, React, Node) and Bootstrap that allows professionals to locate and purchase specific industrial equipment data.</p>
+    							<a target='_blank' href="https://maritant.herokuapp.com/#/" className="btn btn-primary">Try Me!</a>
+  							</div>
 						</div>
-						<h3 className='appTitle'><u>Recipe Recorder:</u></h3>
-							<div className="app">
-								<a target='_blank' href="https://crisayala16.github.io/Recipe-App/">
-									<div id="app2"></div>
-								</a>
-							</div>
-						<div className='appDescription'>
-							<p>
-								Recipe Recorder is a recipe app built using HTML, Javascript, and JQuery to take specific ingredient input from users then search an API and provide recipes containing those ingredients.
-							</p>
-						</div>
+						<br>
+						</br>
+						<div className="card">
+  							<img className="card-img-top" id="app2" alt=""></img>
+  							<div className="card-body">
+    							<h4 className="card-title"><u>Recipe Recorder:</u></h4>
+    							<p className="card-text">Recipe Recorder is a recipe app built using HTML, Javascript, and JQuery to take specific ingredient input from users then search an API and provide recipes containing those ingredients.</p>
+    							<a target='_blank' href="https://crisayala16.github.io/Recipe-App/" className="btn btn-primary">Try Me!</a>
+  							</div>
 						</div>
 						<br>
 						</br>
