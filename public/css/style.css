@@ -41,39 +41,72 @@
     width: 100%;
 }
 
-.navbar {
-    opacity: .8;
+.navigation {
+    opacity: .9;
+    color: white;
 }
 
-.listItem {
-    font-size: 20px;
+/*#eSymbol {
+    font-size: 16px;
+    color: white;
+}*/
+
+.nav-link {
+    font-size: 16px;
     font-color: white;
     justify-content: center;
 }
 
 #socialLogos {
-
+    width: 10px;
+    height: 15px;
 }
 
 #gitLogo {
-    font-size: 30px;
+    font-size: 25px;
+    padding: 5px;
 }
 
 #linkLogo {
-    font-size: 30px;
+    font-size: 25px;
+    padding: 5px;
 }
 
 .nameTitle {
     font-size: 60px;
     color: white;
-    border-bottom: 5px ridge white;
+/*    border-bottom: 5px ridge white;*/
 }
 
 #typeName {
     text-align: center;
     font-size: 60px;
     font-family: 'Artifika', cursive; 
-    -webkit-animation-duration:1s;
+/*    -webkit-animation-duration:1s;*/
+}
+
+.typed-cursor{
+  opacity: 1;
+  animation: typedjsBlink 0.7s infinite;
+  -webkit-animation: typedjsBlink 0.7s infinite;
+  animation: typedjsBlink 0.7s infinite;
+}
+
+@keyframes typedjsBlink{
+  50% { opacity: 0.0; }
+}
+
+@-webkit-keyframes typedjsBlink{
+  0% { opacity: 1; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1; }
+}
+
+.typed-fade-out{
+  opacity: 0;
+  transition: opacity .25s;
+  -webkit-animation: 0;
+  animation: 0;
 }
 
 #aboutTitle, #portfolioTitle, #contactTitle { 
@@ -129,10 +162,11 @@
     font-family: 'Artifika', cursive; 
 }
 
-/*.carousel-item {
-    width: 100px;
-    height: 200px;
-}*/
+.carousel-item {
+    align-items: center;
+    width: 1100px;
+    height: 505px;
+}
 
 #frontend {
     border-bottom: 3px ridge black;  
@@ -188,7 +222,7 @@
     display: inline-block;
 }
 
-.form-contain {
+.form-group {
     max-width: 1200px;
     padding: 5px;
     display: block;
@@ -212,5 +246,5 @@
     margin: 0 auto;
     font-size: 16px;
     color: white;
-    width: 100%;
+
 }

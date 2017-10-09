@@ -1,9 +1,9 @@
 import React from 'react';
-import Footer from './Footer.js';
 
 class About extends React.Component{
 	render(){
 		return(
+			<div className="container-fixed">
 			<div className="row" id="aboutMe">
 			<h1 id="aboutTitle" className="center-text animated slideInDown"><strong>About Me</strong></h1>
 			<div className="row">
@@ -28,6 +28,7 @@ class About extends React.Component{
 				</div>
 			</div>
 			<div className="col-1"></div>
+		</div>
 		</div>
 		);
 	}

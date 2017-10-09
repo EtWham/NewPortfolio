@@ -1,6 +1,6 @@
 import React from 'react';
 import {Route} from 'react-router-dom';
-import Navbar from './Children/Navbar.js';
+import Navbar2 from './Children/Navbar2.js';
 import Home from './Children/Home.js';
 import About from './Children/About.js';
 import Portfolio from './Children/Portfolio.js';
@@ -11,7 +11,7 @@ class Main extends React.Component{
 	render(){
 		return(
 			<div>
-				<Navbar/>
+				<Navbar2 />
 				<div className='container-fluid'>
 					<Route exact path='/' component={Home}/>
 					<Route path='/about' component={About}/>
